@@ -191,7 +191,7 @@ gio set /home/amnesia/Desktop/DeepOnion-Core.desktop metadata::trusted yes
 chmod +x /home/amnesia/Desktop/DeepOnion-Core.desktop
 # cp /home/amnesia/Persistent/.DeepOnion/conf_files/dot-config/DeepOnion-Qt.conf /home/amnesia/.config/DeepOnion/
 cp /home/amnesia/Persistent/.DeepOnion/conf_files/dot-config/DeepOnion-Qt.conf /live/persistence/TailsData_unlocked/dotfiles/.config/DeepOnion/DeepOnion-Qt.conf
-# ln -s /live/persistence/TailsData_unlocked/dotfiles/.config/DeepOnion/DeepOnion-Qt.conf /home/amnesia/.config/DeepOnion/DeepOnion-Qt.conf
+ln -s /live/persistence/TailsData_unlocked/dotfiles/.config/DeepOnion/DeepOnion-Qt.conf /home/amnesia/.config/DeepOnion/DeepOnion-Qt.conf
 sudo cp /home/amnesia/Persistent/.DeepOnion/conf_files/desktop/deeponion-qt-dv.desktop /usr/share/applications/deeponion-qt-dv.desktop
 sudo chmod +x /usr/share/applications/deeponion-qt-dv.desktop
 sudo cp /home/amnesia/Persistent/.DeepOnion/conf_files/ferm/ferm.conf /etc/ferm/ferm.conf && sudo ferm /etc/ferm/ferm.conf
